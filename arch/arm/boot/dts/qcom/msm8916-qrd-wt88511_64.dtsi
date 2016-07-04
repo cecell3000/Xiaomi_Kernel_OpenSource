@@ -480,7 +480,7 @@ sound {
 
 
 	akm@c {
-		compatible = "ak, ak09911";
+		compatible = "ak,ak09911";
 		reg = <0x0c>;
 		vdd-supply = <&pm8916_l17>;
 		vio-supply = <&pm8916_l6>;
