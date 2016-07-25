@@ -38,7 +38,7 @@ BOOTIMG_TOOLS_PATH=$PWD/mkbootimg_tools/
 
 ## release out directory
 RELEASE_DIR=$KERNEL_DIR/out/
-JERRICA_MI_RELEASE=Jerrica-MI-REL4.0-$JERRICA_POSTFIX.zip
+JERRICA_MI_RELEASE=Jerrica-MI-PreFinal_4.1-$JERRICA_POSTFIX.zip
 
 ## make jobs
 MAKE_JOBS=10
