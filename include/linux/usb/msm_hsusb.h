@@ -117,7 +117,11 @@ enum msm_usb_phy_type {
 #define IDEV_CHG_MIN	500
 #define IUNIT		100
 
+#if defined(WT_USE_S86001_CHARGE_1000) || defined(WT_USE_86519_CHARGE_1200) || defined(CONFIG_WT_USE_XIAOMI_CHARGE_1050) 
+#define IDEV_ACA_CHG_MAX	IDEV_CHG_MAX
+#else
 #define IDEV_ACA_CHG_MAX	1500
+#endif
 #define IDEV_ACA_CHG_LIMIT	500
 
 /**
